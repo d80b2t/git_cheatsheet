@@ -26,8 +26,9 @@ folks using git, and e.g. github. Slightly ``meta''-ly, I've uploaded this file 
 
 
 \section{My github accounts}
-npr247\\
 d80b2t\\
+npr247\\
+
 
 
 \subsection{notes}
@@ -91,6 +92,98 @@ Nic
    {\tt $>$ git log --pretty=format:"\%h - \%an, \%ar : \%s"} \\
 
 
+\newpage
+\section{Git-Specific Commands}
+{\bf THESE NOTES ARE STRAIGHT FROM\\
+\href{http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/}{http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/}}.
+Since Git was designed with a big project like Linux in mind, there
+are a lot of Git commands. However, to use the basics of Git, you’ll
+only need to know a few terms. They all begin the same way, with the
+word ``git''.
+
+{\tt git init}: Initializes a new Git repository. Until you run this
+command inside a repository or directory, it’s just a regular
+folder. Only after you input this does it accept further Git commands.
+
+{\tt git config}: Short for ``configure'' this is most useful when
+you’re setting up Git for the first time.
+
+{\tt git status}: Check the status of your repository. See which files
+are inside it, which changes still need to be committed, and which
+branch of the repository you’re currently working on.
+
+{\tt git add}: This does not add new files to your
+repository. Instead, it brings new files to Git’s attention. After you
+add files, they’re included in Git's ``snapshots'' of the repository.
+
+{\tt git commit}: Git’s most important command. After you make any
+sort of change, you input this in order to take a ``snapshot'' of the
+repository. Usually it goes {\tt git commit -m ``Message here''}.  The
+{\tt -m} indicates that the following section of the command should be
+read as a message.
+
+{\tt git branch}: Working with multiple collaborators and want to make
+changes on your own? This command will let you build a new branch, or
+timeline of commits, of changes and file additions that are completely
+your own. Your title goes after the command. If you wanted a new
+branch called ``cats'', you'd type {\tt git branch cats}.
+
+{\tt git checkout:} Literally allows you to ``check out'' a repository
+that you are not currently inside. This is a navigational command that
+lets you move to the repository you want to check. You can use this
+command as {\tt git checkout master} to look at the master branch, or
+{\tt git checkout cats} to look at another branch.
+
+{\tt git merge}: When you’re done working on a branch, you can merge
+your changes back to the master branch, which is visible to all
+collaborators. {\tt git merge cats} would take all the changes you
+made to the ``cats'' branch and add them to the master.
+
+{\tt git push}: If you’re working on your local computer, and want
+your commits to be visible online on GitHub as well, you ``push'' the
+changes up to GitHub with this command.
+
+{\tt git pull}: If you’re working on your local computer and want the
+most up-to-date version of your repository to work with, you ``pull''
+the changes down from GitHub with this command.
+
+{\tt git help}: Forgot a command? Type this into the command line to
+bring up the 21 most common git commands. You can also be more
+specific and type ``git help init'' or another term to figure out how
+to use and configure a specific git command.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Things to learn...}
@@ -114,6 +207,15 @@ for the e.g. github-git-cheat-sheet.pdf \\
 
 \noindent
 \href{https://github.com/AlexZeitler/gitcheatsheet}{https://github.com/AlexZeitler/gitcheatsheet}
+
+
+\section*{Resources}
+
+\href{https://www.youtube.com/watch?v=O72FWNeO-xY}{Copying a GitHub Repository to Your Local Computer (Youtube)}\\
+\href{http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/}{http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/}
+\href{http://readwrite.com/2013/10/02/github-for-beginners-part-2/}{http://readwrite.com/2013/10/02/github-for-beginners-part-2/}
+
+
 
 
 
